@@ -1,13 +1,15 @@
 #include <stdio.h>
+#include <string.h>
 
 /**
- * main - Entry point
+ *main - How to use Puts function
  *
- * Return: Always 0 (Success)
- */
-
+ *Return: Always 0 (Success)
+**/
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	char phrase[] = "\"Programming is like building a multilingual puzzle";
+
+	puts(phrase);
 	return (0);
 }
